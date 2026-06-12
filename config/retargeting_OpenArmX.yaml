@@ -25,7 +25,7 @@ exo_joint_mapping:
       - 'left_arm_joint_5'
       - 'left_arm_joint_6'
       - 'left_arm_joint_7'
-    indices: [0, 1, 2, 3, 4, 5, 6]
+    indices: [0, 1, 2, 3, 4, 6, 5]
 
   right_arm:
     joint_names:
@@ -36,7 +36,7 @@ exo_joint_mapping:
       - 'right_arm_joint_5'
       - 'right_arm_joint_6'
       - 'right_arm_joint_7'
-    indices: [7, 8, 9, 10, 11, 12, 13]
+    indices: [7, 8, 9, 10, 11, 13, 12]
 
   triggers:
     joint_names: ['left_trigger_joint', 'right_trigger_joint']
@@ -70,8 +70,8 @@ target_joint_mapping:
 retargeting_params:
   scaling_factors:
     # OpenArmX的7个关节缩放因子
-    left_arm:  [1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0]
-    right_arm: [1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0]
+    left_arm:  [1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0]
+    right_arm: [1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0]
 
   offset_angles:
     # OpenArmX关节偏置（单位: 弧度）
